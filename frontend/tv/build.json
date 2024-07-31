@@ -1,1 +1,5 @@
-{ "nome": "default", "versao": "1.0.0" }
+{ "nome": "tv", "versao": "1.0.0",
+"build":{
+    "output":"$static/tv-build/$buildId/$type/$file",
+    "buildLocal": "builds"
+} }
