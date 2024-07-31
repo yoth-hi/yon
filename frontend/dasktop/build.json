@@ -1,0 +1,8 @@
+{
+    "nome": "dasktop",
+    "versao": "1.0.0",
+    "build":{
+        "output":"$static/dasktop/$buildId/$type/$file",
+        "buildLocal": "builds"
+    }
+}
