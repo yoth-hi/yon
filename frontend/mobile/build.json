@@ -1,8 +1,0 @@
-{
-    "nome": "mobile",
-    "versao": "1.0.0",
-    "build":{
-        "output":"$static/mobile/$buildId/$type/$file",
-        "buildLocal": "builds"
-    }
-}

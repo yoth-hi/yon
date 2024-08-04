@@ -1,8 +1,0 @@
-{
-    "nome": "default",
-    "versao": "1.0.0",
-    "build": {
-        "output": "$static/player/$buildId/$type/$file",
-        "buildLocal": "builds"
-    }
-}
