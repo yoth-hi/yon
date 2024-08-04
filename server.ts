@@ -38,7 +38,7 @@ export function app(): express.Express {
         publicPath: browserDistFolder,
         providers: [
           { provide: APP_BASE_HREF, useValue: baseUrl },
-          { provide: APP_INITIAL_DATA, useValue: dynamicData },
+          { provide: "APP_INITIAL_DATA", useValue: dynamicData },
         ],
       })
       .then((html) => {

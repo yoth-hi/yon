@@ -3,10 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import type { Data } from '../@types/data';
 import { APP_INITIAL_DATA } from '../app.token';
+import { GuideComponent } from './components/guide/guide.component';
+import { GuideManagerComponent } from './components/guide-manager/guide-manager.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
+  imports: [CommonModule, RouterOutlet, GuideComponent, GuideManagerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
